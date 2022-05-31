@@ -1,0 +1,941 @@
+java.io.FileNotFoundException: ./utils/user_dic.tsv (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at kr.co.shineware.nlp.komoran.core.Komoran.setUserDic(Komoran.java:616)
+2022-05-04 13:10:55.591515: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2022-05-04 13:10:55.848435: E tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:967] could not open file to read NUMA node: /sys/bus/pci/devices/0000:01:00.0/numa_node
+Your kernel may have been built without NUMA support.
+2022-05-04 13:10:55.848667: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: NVIDIA GeForce GTX 1050 Ti computeCapability: 6.1
+coreClock: 1.455GHz coreCount: 6 deviceMemorySize: 4.00GiB deviceMemoryBandwidth: 104.43GiB/s
+2022-05-04 13:10:55.848829: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2022-05-04 13:10:55.848915: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory
+2022-05-04 13:10:55.849000: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory
+2022-05-04 13:10:55.849083: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10'; dlerror: libcurand.so.10: cannot open shared object file: No such file or directory
+2022-05-04 13:10:55.849166: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10'; dlerror: libcusolver.so.10: cannot open shared object file: No such file or directory
+2022-05-04 13:10:55.849247: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10'; dlerror: libcusparse.so.10: cannot open shared object file: No such file or directory
+2022-05-04 13:10:55.849332: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2022-05-04 13:10:55.849349: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1598] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-05-04 13:10:55.858123: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 3392295000 Hz
+2022-05-04 13:10:55.859414: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x564556b3fb80 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2022-05-04 13:10:55.859443: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2022-05-04 13:10:55.861238: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-05-04 13:10:55.861260: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      
+java.io.FileNotFoundException: ./utils/user_dic.tsv (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at kr.co.shineware.nlp.komoran.core.Komoran.setUserDic(Komoran.java:616)
+2022-05-04 13:12:07.051478: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2022-05-04 13:12:07.305576: E tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:967] could not open file to read NUMA node: /sys/bus/pci/devices/0000:01:00.0/numa_node
+Your kernel may have been built without NUMA support.
+2022-05-04 13:12:07.305886: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: NVIDIA GeForce GTX 1050 Ti computeCapability: 6.1
+coreClock: 1.455GHz coreCount: 6 deviceMemorySize: 4.00GiB deviceMemoryBandwidth: 104.43GiB/s
+2022-05-04 13:12:07.306066: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2022-05-04 13:12:07.306151: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory
+2022-05-04 13:12:07.306232: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory
+2022-05-04 13:12:07.306312: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10'; dlerror: libcurand.so.10: cannot open shared object file: No such file or directory
+2022-05-04 13:12:07.306392: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10'; dlerror: libcusolver.so.10: cannot open shared object file: No such file or directory
+2022-05-04 13:12:07.306470: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10'; dlerror: libcusparse.so.10: cannot open shared object file: No such file or directory
+2022-05-04 13:12:07.306550: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2022-05-04 13:12:07.306567: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1598] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-05-04 13:12:07.315750: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 3392295000 Hz
+2022-05-04 13:12:07.316877: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55c6990a1740 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2022-05-04 13:12:07.316907: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2022-05-04 13:12:07.318908: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-05-04 13:12:07.318929: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      
+java.io.FileNotFoundException: ./utils/user_dic.tsv (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at kr.co.shineware.nlp.komoran.core.Komoran.setUserDic(Komoran.java:616)
+2022-05-06 09:18:16.920674: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2022-05-06 09:18:17.712400: E tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:967] could not open file to read NUMA node: /sys/bus/pci/devices/0000:01:00.0/numa_node
+Your kernel may have been built without NUMA support.
+2022-05-06 09:18:17.712670: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: NVIDIA GeForce GTX 1050 Ti computeCapability: 6.1
+coreClock: 1.455GHz coreCount: 6 deviceMemorySize: 4.00GiB deviceMemoryBandwidth: 104.43GiB/s
+2022-05-06 09:18:17.712888: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2022-05-06 09:18:17.713003: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory
+2022-05-06 09:18:17.713108: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory
+2022-05-06 09:18:17.713204: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10'; dlerror: libcurand.so.10: cannot open shared object file: No such file or directory
+2022-05-06 09:18:17.713299: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10'; dlerror: libcusolver.so.10: cannot open shared object file: No such file or directory
+2022-05-06 09:18:17.713391: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10'; dlerror: libcusparse.so.10: cannot open shared object file: No such file or directory
+2022-05-06 09:18:17.713486: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2022-05-06 09:18:17.713504: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1598] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-05-06 09:18:17.739620: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 3392290000 Hz
+2022-05-06 09:18:17.740878: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x557288d84b90 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2022-05-06 09:18:17.740908: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2022-05-06 09:18:17.745514: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-05-06 09:18:17.745540: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      
+WARNING:tensorflow:AutoGraph could not transform <function Model.make_predict_function.<locals>.predict_function at 0x7feaec0594d0> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: Unable to locate the source code of <function Model.make_predict_function.<locals>.predict_function at 0x7feaec0594d0>. Note that functions defined in certain environments, like the interactive Python shell do not expose their source code. If that is the case, you should to define them in a .py source file. If you are certain the code is graph-compatible, wrap the call using @tf.autograph.do_not_convert. Original error: could not get source code
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+DB 접속
+bot start
+===========================
+Connection from: ('127.0.0.1', 40180)
+데이터 수신 :  {'Query': 'ㄷ턋', 'BotType': 'MyService'}
+WARNING:tensorflow:AutoGraph could not transform <function Model.make_predict_function.<locals>.predict_function at 0x7feaec020c20> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: Unable to locate the source code of <function Model.make_predict_function.<locals>.predict_function at 0x7feaec020c20>. Note that functions defined in certain environments, like the interactive Python shell do not expose their source code. If that is the case, you should to define them in a .py source file. If you are certain the code is graph-compatible, wrap the call using @tf.autograph.do_not_convert. Original error: could not get source code
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+의도 파악222 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40184)
+데이터 수신 :  {'Query': 'sad', 'BotType': 'MyService'}
+의도 파악222 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40188)
+데이터 수신 :  {'Query': 'how', 'BotType': 'MyService'}
+의도 파악222 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40192)
+데이터 수신 :  {'Query': '안녕', 'BotType': 'MyService'}
+의도 파악222 :  인사
+===========================
+Connection from: ('127.0.0.1', 40196)
+데이터 수신 :  {'Query': '1233', 'BotType': 'MyService'}
+의도 파악222 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40200)
+데이터 수신 :  {'Query': 'er', 'BotType': 'MyService'}
+의도 파악222 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40204)
+데이터 수신 :  {'Query': 'hello', 'BotType': 'MyService'}
+의도 파악222 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40208)
+데이터 수신 :  {'Query': '안녕', 'BotType': 'MyService'}
+의도 파악222 :  인사
+===========================
+Connection from: ('127.0.0.1', 40212)
+데이터 수신 :  {'Query': '이야 된다!', 'BotType': 'MyService'}
+의도 파악222 :  주문
+의도 파악222 :  주문
+===========================
+Connection from: ('127.0.0.1', 40216)
+데이터 수신 :  {'Query': '탕수육 주문', 'BotType': 'MyService'}
+의도 파악333 :  주문
+의도 파악222 :  주문
+===========================
+Connection from: ('127.0.0.1', 40220)
+데이터 수신 :  {'Query': '탕수육', 'BotType': 'MyService'}
+의도 파악333 :  주문
+의도 파악222 :  주문
+===========================
+Connection from: ('127.0.0.1', 40224)
+데이터 수신 :  {'Query': '안녕', 'BotType': 'MyService'}
+의도 파악222 :  인사
+===========================
+Connection from: ('127.0.0.1', 40228)
+데이터 수신 :  {'Query': '.', 'BotType': 'MyService'}
+의도 파악222 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40232)
+데이터 수신 :  {'Query': 'D', 'BotType': 'MyService'}
+의도 파악222 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40236)
+데이터 수신 :  {'Query': '영어', 'BotType': 'MyService'}
+의도 파악222 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40240)
+데이터 수신 :  {'Query': '아', 'BotType': 'MyService'}
+의도 파악222 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40244)
+데이터 수신 :  {'Query': '...', 'BotType': 'MyService'}
+의도 파악222 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40248)
+데이터 수신 :  {'Query': '안녕', 'BotType': 'MyService'}
+의도 파악222 :  인사
+===========================
+Connection from: ('127.0.0.1', 40252)
+데이터 수신 :  {'Query': 'sjeh dpfjssksl?', 'BotType': 'MyService'}
+의도 파악333 :  기타
+의도 파악222 :  기타
+===========================
+Connection from: ('127.0.0.1', 40256)
+데이터 수신 :  {'Query': '너도 에러 나니?', 'BotType': 'MyService'}
+의도 파악222 :  기타
+의도 파악222 :  기타
+===========================
+Connection from: ('127.0.0.1', 40260)
+데이터 수신 :  {'Query': '안나는데', 'BotType': 'MyService'}
+의도 파악222 :  기타
+의도 파악222 :  기타
+===========================
+Connection from: ('127.0.0.1', 40264)
+데이터 수신 :  {'Query': '아 맞다 너 db 없지...', 'BotType': 'MyService'}
+의도 파악222 :  기타
+의도 파악222 :  기타
+===========================
+Connection from: ('127.0.0.1', 40268)
+데이터 수신 :  {'Query': '아 맞다 너 DB 없지...', 'BotType': 'MyService'}
+의도 파악222 :  기타
+의도 파악222 :  기타
+===========================
+Connection from: ('127.0.0.1', 40272)
+데이터 수신 :  {'Query': '에러 왜 발생함?', 'BotType': 'MyService'}
+의도 파악333 :  기타
+의도 파악222 :  기타
+===========================
+Connection from: ('127.0.0.1', 40276)
+데이터 수신 :  {'Query': 'ㅇㅇDADASD ㄴㅇㄴㅇ ＃?', 'BotType': 'MyService'}
+의도 파악222 :  기타
+의도 파악222 :  기타
+===========================
+Connection from: ('127.0.0.1', 40280)
+데이터 수신 :  {'Query': '에러 왜 발생함?', 'BotType': 'MyService'}
+의도 파악333 :  기타
+의도 파악222 :  기타
+===========================
+Connection from: ('127.0.0.1', 40284)
+데이터 수신 :  {'Query': '아 맞다 너 DB 없지...', 'BotType': 'MyService'}
+의도 파악222 :  기타
+의도 파악222 :  기타
+===========================
+Connection from: ('127.0.0.1', 40288)
+데이터 수신 :  {'Query': '1', 'BotType': 'MyService'}
+의도 파악222 :  주문
+의도 파악222 :  주문
+===========================
+Connection from: ('127.0.0.1', 40292)
+데이터 수신 :  {'Query': '2', 'BotType': 'MyService'}
+의도 파악222 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40296)
+데이터 수신 :  {'Query': '3', 'BotType': 'MyService'}
+의도 파악222 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40300)
+데이터 수신 :  {'Query': '4', 'BotType': 'MyService'}
+의도 파악333 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40304)
+데이터 수신 :  {'Query': '5', 'BotType': 'MyService'}
+의도 파악333 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40308)
+데이터 수신 :  {'Query': '6', 'BotType': 'MyService'}
+의도 파악333 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40312)
+데이터 수신 :  {'Query': '7', 'BotType': 'MyService'}
+의도 파악222 :  기타
+의도 파악222 :  기타
+===========================
+Connection from: ('127.0.0.1', 40316)
+데이터 수신 :  {'Query': '8', 'BotType': 'MyService'}
+의도 파악222 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40320)
+데이터 수신 :  {'Query': '10', 'BotType': 'MyService'}
+의도 파악333 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40324)
+데이터 수신 :  {'Query': '11', 'BotType': 'MyService'}
+의도 파악333 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40328)
+데이터 수신 :  {'Query': '12', 'BotType': 'MyService'}
+의도 파악333 :  주문
+의도 파악222 :  주문
+===========================
+Connection from: ('127.0.0.1', 40332)
+데이터 수신 :  {'Query': '13', 'BotType': 'MyService'}
+의도 파악333 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40336)
+데이터 수신 :  {'Query': 'ㅁ', 'BotType': 'MyService'}
+의도 파악222 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40340)
+데이터 수신 :  {'Query': 'ㅁㄴㅇ', 'BotType': 'MyService'}
+의도 파악222 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40344)
+데이터 수신 :  {'Query': 'ㅁㄴㅇㅁㄴㅇ', 'BotType': 'MyService'}
+의도 파악222 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40348)
+데이터 수신 :  {'Query': 'ㅁㄴㅇㅁㄴㄻㄹ', 'BotType': 'MyService'}
+의도 파악222 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40352)
+데이터 수신 :  {'Query': '...', 'BotType': 'MyService'}
+의도 파악222 :  욕설
+의도 파악222 :  욕설
+===========================
+Connection from: ('127.0.0.1', 40356)
+데이터 수신 :  {'Query': '에러나는 원인이 뭘까요', 'BotType': 'MyService'}
+의도 파악222 :  기타
+의도 파악222 :  기타
+===========================Traceback (most recent call last):
+  File "/home/pickus/chatbot_study/bot.py", line 5, in <module>
+    from utils.Database import Database
+  File "/home/pickus/chatbot_study/utils/Database.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+Traceback (most recent call last):
+  File "/home/pickus/chatbot_study/bot.py", line 5, in <module>
+    from utils.Database import Database
+  File "/home/pickus/chatbot_study/utils/Database.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+Traceback (most recent call last):
+  File "/home/pickus/chatbot_study/bot.py", line 5, in <module>
+    from utils.Database import Database
+  File "/home/pickus/chatbot_study/utils/Database.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+Traceback (most recent call last):
+  File "/home/pickus/chatbot_study/bot.py", line 5, in <module>
+    from utils.Database import Database
+  File "/home/pickus/chatbot_study/utils/Database.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+Traceback (most recent call last):
+  File "/home/pickus/chatbot_study/bot.py", line 5, in <module>
+    from utils.Database import Database
+  File "/home/pickus/chatbot_study/utils/Database.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+java.io.FileNotFoundException: ./utils/user_dic.tsv (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at kr.co.shineware.nlp.komoran.core.Komoran.setUserDic(Komoran.java:616)
+2022-05-31 11:53:34.428836: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2022-05-31 11:53:35.235403: E tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:967] could not open file to read NUMA node: /sys/bus/pci/devices/0000:01:00.0/numa_node
+Your kernel may have been built without NUMA support.
+2022-05-31 11:53:35.235682: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: NVIDIA GeForce GTX 1050 Ti computeCapability: 6.1
+coreClock: 1.455GHz coreCount: 6 deviceMemorySize: 4.00GiB deviceMemoryBandwidth: 104.43GiB/s
+2022-05-31 11:53:35.235935: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2022-05-31 11:53:35.236040: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory
+2022-05-31 11:53:35.236149: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory
+2022-05-31 11:53:35.236248: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10'; dlerror: libcurand.so.10: cannot open shared object file: No such file or directory
+2022-05-31 11:53:35.236377: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10'; dlerror: libcusolver.so.10: cannot open shared object file: No such file or directory
+2022-05-31 11:53:35.236468: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10'; dlerror: libcusparse.so.10: cannot open shared object file: No such file or directory
+2022-05-31 11:53:35.236558: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2022-05-31 11:53:35.236575: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1598] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-05-31 11:53:35.259790: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 3392290000 Hz
+2022-05-31 11:53:35.261256: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x557a3d864870 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2022-05-31 11:53:35.261291: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2022-05-31 11:53:35.266170: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-05-31 11:53:35.266209: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      
+Traceback (most recent call last):
+  File "bot.py", line 21, in <module>
+    ner = NerModel(model_name='./models/ner/ner_model.h5', proprocess=p)
+  File "/home/pickus/chatbot_study/models/ner/NerModel.py", line 15, in __init__
+    self.model = load_model(model_name)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/saving/save.py", line 184, in load_model
+    return hdf5_format.load_model_from_hdf5(filepath, custom_objects, compile)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/saving/hdf5_format.py", line 177, in load_model_from_hdf5
+    model = model_config_lib.model_from_config(model_config,
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/saving/model_config.py", line 55, in model_from_config
+    return deserialize(config, custom_objects=custom_objects)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/serialization.py", line 105, in deserialize
+    return deserialize_keras_object(
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/utils/generic_utils.py", line 369, in deserialize_keras_object
+    return cls.from_config(
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/engine/sequential.py", line 399, in from_config
+    model.add(layer)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/training/tracking/base.py", line 456, in _method_wrapper
+    result = method(self, *args, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/engine/sequential.py", line 213, in add
+    output_tensor = layer(self.outputs[0])
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/wrappers.py", line 531, in __call__
+    return super(Bidirectional, self).__call__(inputs, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/engine/base_layer.py", line 922, in __call__
+    outputs = call_fn(cast_inputs, *args, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/wrappers.py", line 644, in call
+    y = self.forward_layer(forward_inputs,
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 654, in __call__
+    return super(RNN, self).__call__(inputs, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/engine/base_layer.py", line 922, in __call__
+    outputs = call_fn(cast_inputs, *args, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent_v2.py", line 1112, in call
+    inputs, initial_state, _ = self._process_inputs(inputs, initial_state, None)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 848, in _process_inputs
+    initial_state = self.get_initial_state(inputs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 636, in get_initial_state
+    init_state = get_initial_state_fn(
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 2480, in get_initial_state
+    return list(_generate_zero_filled_state_for_cell(
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 2926, in _generate_zero_filled_state_for_cell
+    return _generate_zero_filled_state(batch_size, cell.state_size, dtype)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 2942, in _generate_zero_filled_state
+    return nest.map_structure(create_zeros, state_size)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/util/nest.py", line 617, in map_structure
+    structure[0], [func(*x) for x in entries],
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/util/nest.py", line 617, in <listcomp>
+    structure[0], [func(*x) for x in entries],
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 2939, in create_zeros
+    return array_ops.zeros(init_state_size, dtype=dtype)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/ops/array_ops.py", line 2677, in wrapped
+    tensor = fun(*args, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/ops/array_ops.py", line 2721, in zeros
+    output = _constant_if_small(zero, shape, dtype, name)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/ops/array_ops.py", line 2662, in _constant_if_small
+    if np.prod(shape) < 1000:
+  File "<__array_function__ internals>", line 180, in prod
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/numpy/core/fromnumeric.py", line 3088, in prod
+    return _wrapreduction(a, np.multiply, 'prod', axis, dtype, out,
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/numpy/core/fromnumeric.py", line 86, in _wrapreduction
+    return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/framework/ops.py", line 748, in __array__
+    raise NotImplementedError("Cannot convert a symbolic Tensor ({}) to a numpy"
+NotImplementedError: Cannot convert a symbolic Tensor (bidirectional/forward_lstm/strided_slice:0) to a numpy array.
+java.io.FileNotFoundException: ./utils/user_dic.tsv (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at kr.co.shineware.nlp.komoran.core.Komoran.setUserDic(Komoran.java:616)
+2022-05-31 11:57:27.748060: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2022-05-31 11:57:28.007982: E tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:967] could not open file to read NUMA node: /sys/bus/pci/devices/0000:01:00.0/numa_node
+Your kernel may have been built without NUMA support.
+2022-05-31 11:57:28.008325: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: NVIDIA GeForce GTX 1050 Ti computeCapability: 6.1
+coreClock: 1.455GHz coreCount: 6 deviceMemorySize: 4.00GiB deviceMemoryBandwidth: 104.43GiB/s
+2022-05-31 11:57:28.008526: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2022-05-31 11:57:28.008616: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory
+2022-05-31 11:57:28.008699: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory
+2022-05-31 11:57:28.008781: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10'; dlerror: libcurand.so.10: cannot open shared object file: No such file or directory
+2022-05-31 11:57:28.008863: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10'; dlerror: libcusolver.so.10: cannot open shared object file: No such file or directory
+2022-05-31 11:57:28.008943: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10'; dlerror: libcusparse.so.10: cannot open shared object file: No such file or directory
+2022-05-31 11:57:28.009053: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2022-05-31 11:57:28.009071: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1598] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-05-31 11:57:28.020152: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 3392290000 Hz
+2022-05-31 11:57:28.021874: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x564a686e5fe0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2022-05-31 11:57:28.021923: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2022-05-31 11:57:28.023776: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-05-31 11:57:28.023797: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      
+Traceback (most recent call last):
+  File "bot.py", line 21, in <module>
+    ner = NerModel(model_name='./models/ner/ner_model.h5', proprocess=p)
+  File "/home/pickus/chatbot_study/models/ner/NerModel.py", line 15, in __init__
+    self.model = load_model(model_name)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/saving/save.py", line 184, in load_model
+    return hdf5_format.load_model_from_hdf5(filepath, custom_objects, compile)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/saving/hdf5_format.py", line 177, in load_model_from_hdf5
+    model = model_config_lib.model_from_config(model_config,
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/saving/model_config.py", line 55, in model_from_config
+    return deserialize(config, custom_objects=custom_objects)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/serialization.py", line 105, in deserialize
+    return deserialize_keras_object(
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/utils/generic_utils.py", line 369, in deserialize_keras_object
+    return cls.from_config(
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/engine/sequential.py", line 399, in from_config
+    model.add(layer)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/training/tracking/base.py", line 456, in _method_wrapper
+    result = method(self, *args, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/engine/sequential.py", line 213, in add
+    output_tensor = layer(self.outputs[0])
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/wrappers.py", line 531, in __call__
+    return super(Bidirectional, self).__call__(inputs, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/engine/base_layer.py", line 922, in __call__
+    outputs = call_fn(cast_inputs, *args, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/wrappers.py", line 644, in call
+    y = self.forward_layer(forward_inputs,
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 654, in __call__
+    return super(RNN, self).__call__(inputs, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/engine/base_layer.py", line 922, in __call__
+    outputs = call_fn(cast_inputs, *args, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent_v2.py", line 1112, in call
+    inputs, initial_state, _ = self._process_inputs(inputs, initial_state, None)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 848, in _process_inputs
+    initial_state = self.get_initial_state(inputs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 636, in get_initial_state
+    init_state = get_initial_state_fn(
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 2480, in get_initial_state
+    return list(_generate_zero_filled_state_for_cell(
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 2926, in _generate_zero_filled_state_for_cell
+    return _generate_zero_filled_state(batch_size, cell.state_size, dtype)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 2942, in _generate_zero_filled_state
+    return nest.map_structure(create_zeros, state_size)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/util/nest.py", line 617, in map_structure
+    structure[0], [func(*x) for x in entries],
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/util/nest.py", line 617, in <listcomp>
+    structure[0], [func(*x) for x in entries],
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 2939, in create_zeros
+    return array_ops.zeros(init_state_size, dtype=dtype)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/ops/array_ops.py", line 2677, in wrapped
+    tensor = fun(*args, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/ops/array_ops.py", line 2721, in zeros
+    output = _constant_if_small(zero, shape, dtype, name)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/ops/array_ops.py", line 2662, in _constant_if_small
+    if np.prod(shape) < 1000:
+  File "<__array_function__ internals>", line 180, in prod
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/numpy/core/fromnumeric.py", line 3088, in prod
+    return _wrapreduction(a, np.multiply, 'prod', axis, dtype, out,
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/numpy/core/fromnumeric.py", line 86, in _wrapreduction
+    return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/framework/ops.py", line 748, in __array__
+    raise NotImplementedError("Cannot convert a symbolic Tensor ({}) to a numpy"
+NotImplementedError: Cannot convert a symbolic Tensor (bidirectional/forward_lstm/strided_slice:0) to a numpy array.
+java.io.FileNotFoundException: ./utils/user_dic.tsv (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at kr.co.shineware.nlp.komoran.core.Komoran.setUserDic(Komoran.java:616)
+2022-05-31 11:58:10.681029: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2022-05-31 11:58:10.935694: E tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:967] could not open file to read NUMA node: /sys/bus/pci/devices/0000:01:00.0/numa_node
+Your kernel may have been built without NUMA support.
+2022-05-31 11:58:10.935971: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: NVIDIA GeForce GTX 1050 Ti computeCapability: 6.1
+coreClock: 1.455GHz coreCount: 6 deviceMemorySize: 4.00GiB deviceMemoryBandwidth: 104.43GiB/s
+2022-05-31 11:58:10.936189: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2022-05-31 11:58:10.936277: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory
+2022-05-31 11:58:10.936359: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory
+2022-05-31 11:58:10.936439: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10'; dlerror: libcurand.so.10: cannot open shared object file: No such file or directory
+2022-05-31 11:58:10.936518: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10'; dlerror: libcusolver.so.10: cannot open shared object file: No such file or directory
+2022-05-31 11:58:10.936596: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10'; dlerror: libcusparse.so.10: cannot open shared object file: No such file or directory
+2022-05-31 11:58:10.936702: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2022-05-31 11:58:10.936722: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1598] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-05-31 11:58:10.947077: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 3392290000 Hz
+2022-05-31 11:58:10.948551: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x555fb3bcdfe0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2022-05-31 11:58:10.948592: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2022-05-31 11:58:10.950582: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-05-31 11:58:10.950604: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      
+Traceback (most recent call last):
+  File "bot.py", line 21, in <module>
+    ner = NerModel(model_name='./models/ner/ner_model.h5', proprocess=p)
+  File "/home/pickus/chatbot_study/models/ner/NerModel.py", line 15, in __init__
+    self.model = load_model(model_name)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/saving/save.py", line 184, in load_model
+    return hdf5_format.load_model_from_hdf5(filepath, custom_objects, compile)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/saving/hdf5_format.py", line 177, in load_model_from_hdf5
+    model = model_config_lib.model_from_config(model_config,
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/saving/model_config.py", line 55, in model_from_config
+    return deserialize(config, custom_objects=custom_objects)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/serialization.py", line 105, in deserialize
+    return deserialize_keras_object(
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/utils/generic_utils.py", line 369, in deserialize_keras_object
+    return cls.from_config(
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/engine/sequential.py", line 399, in from_config
+    model.add(layer)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/training/tracking/base.py", line 456, in _method_wrapper
+    result = method(self, *args, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/engine/sequential.py", line 213, in add
+    output_tensor = layer(self.outputs[0])
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/wrappers.py", line 531, in __call__
+    return super(Bidirectional, self).__call__(inputs, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/engine/base_layer.py", line 922, in __call__
+    outputs = call_fn(cast_inputs, *args, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/wrappers.py", line 644, in call
+    y = self.forward_layer(forward_inputs,
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 654, in __call__
+    return super(RNN, self).__call__(inputs, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/engine/base_layer.py", line 922, in __call__
+    outputs = call_fn(cast_inputs, *args, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent_v2.py", line 1112, in call
+    inputs, initial_state, _ = self._process_inputs(inputs, initial_state, None)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 848, in _process_inputs
+    initial_state = self.get_initial_state(inputs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 636, in get_initial_state
+    init_state = get_initial_state_fn(
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 2480, in get_initial_state
+    return list(_generate_zero_filled_state_for_cell(
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 2926, in _generate_zero_filled_state_for_cell
+    return _generate_zero_filled_state(batch_size, cell.state_size, dtype)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 2942, in _generate_zero_filled_state
+    return nest.map_structure(create_zeros, state_size)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/util/nest.py", line 617, in map_structure
+    structure[0], [func(*x) for x in entries],
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/util/nest.py", line 617, in <listcomp>
+    structure[0], [func(*x) for x in entries],
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 2939, in create_zeros
+    return array_ops.zeros(init_state_size, dtype=dtype)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/ops/array_ops.py", line 2677, in wrapped
+    tensor = fun(*args, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/ops/array_ops.py", line 2721, in zeros
+    output = _constant_if_small(zero, shape, dtype, name)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/ops/array_ops.py", line 2662, in _constant_if_small
+    if np.prod(shape) < 1000:
+  File "<__array_function__ internals>", line 180, in prod
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/numpy/core/fromnumeric.py", line 3088, in prod
+    return _wrapreduction(a, np.multiply, 'prod', axis, dtype, out,
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/numpy/core/fromnumeric.py", line 86, in _wrapreduction
+    return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/framework/ops.py", line 748, in __array__
+    raise NotImplementedError("Cannot convert a symbolic Tensor ({}) to a numpy"
+NotImplementedError: Cannot convert a symbolic Tensor (bidirectional/forward_lstm/strided_slice:0) to a numpy array.
+java.io.FileNotFoundException: ./utils/user_dic.tsv (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at kr.co.shineware.nlp.komoran.core.Komoran.setUserDic(Komoran.java:616)
+2022-05-31 12:07:37.870878: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2022-05-31 12:07:38.132141: E tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:967] could not open file to read NUMA node: /sys/bus/pci/devices/0000:01:00.0/numa_node
+Your kernel may have been built without NUMA support.
+2022-05-31 12:07:38.132421: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: NVIDIA GeForce GTX 1050 Ti computeCapability: 6.1
+coreClock: 1.455GHz coreCount: 6 deviceMemorySize: 4.00GiB deviceMemoryBandwidth: 104.43GiB/s
+2022-05-31 12:07:38.132594: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2022-05-31 12:07:38.132682: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory
+2022-05-31 12:07:38.132765: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory
+2022-05-31 12:07:38.132894: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10'; dlerror: libcurand.so.10: cannot open shared object file: No such file or directory
+2022-05-31 12:07:38.132978: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10'; dlerror: libcusolver.so.10: cannot open shared object file: No such file or directory
+2022-05-31 12:07:38.133058: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10'; dlerror: libcusparse.so.10: cannot open shared object file: No such file or directory
+2022-05-31 12:07:38.133138: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2022-05-31 12:07:38.133155: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1598] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-05-31 12:07:38.142703: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 3392290000 Hz
+2022-05-31 12:07:38.144343: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x563c4bc32370 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2022-05-31 12:07:38.144376: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2022-05-31 12:07:38.146058: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-05-31 12:07:38.146078: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      
+Traceback (most recent call last):
+  File "bot.py", line 21, in <module>
+    ner = NerModel(model_name='./models/ner/ner_model.h5', proprocess=p)
+  File "/home/pickus/chatbot_study/models/ner/NerModel.py", line 15, in __init__
+    self.model = load_model(model_name)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/saving/save.py", line 184, in load_model
+    return hdf5_format.load_model_from_hdf5(filepath, custom_objects, compile)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/saving/hdf5_format.py", line 177, in load_model_from_hdf5
+    model = model_config_lib.model_from_config(model_config,
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/saving/model_config.py", line 55, in model_from_config
+    return deserialize(config, custom_objects=custom_objects)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/serialization.py", line 105, in deserialize
+    return deserialize_keras_object(
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/utils/generic_utils.py", line 369, in deserialize_keras_object
+    return cls.from_config(
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/engine/sequential.py", line 399, in from_config
+    model.add(layer)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/training/tracking/base.py", line 456, in _method_wrapper
+    result = method(self, *args, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/engine/sequential.py", line 213, in add
+    output_tensor = layer(self.outputs[0])
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/wrappers.py", line 531, in __call__
+    return super(Bidirectional, self).__call__(inputs, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/engine/base_layer.py", line 922, in __call__
+    outputs = call_fn(cast_inputs, *args, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/wrappers.py", line 644, in call
+    y = self.forward_layer(forward_inputs,
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 654, in __call__
+    return super(RNN, self).__call__(inputs, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/engine/base_layer.py", line 922, in __call__
+    outputs = call_fn(cast_inputs, *args, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent_v2.py", line 1112, in call
+    inputs, initial_state, _ = self._process_inputs(inputs, initial_state, None)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 848, in _process_inputs
+    initial_state = self.get_initial_state(inputs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 636, in get_initial_state
+    init_state = get_initial_state_fn(
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 2480, in get_initial_state
+    return list(_generate_zero_filled_state_for_cell(
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 2926, in _generate_zero_filled_state_for_cell
+    return _generate_zero_filled_state(batch_size, cell.state_size, dtype)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 2942, in _generate_zero_filled_state
+    return nest.map_structure(create_zeros, state_size)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/util/nest.py", line 617, in map_structure
+    structure[0], [func(*x) for x in entries],
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/util/nest.py", line 617, in <listcomp>
+    structure[0], [func(*x) for x in entries],
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 2939, in create_zeros
+    return array_ops.zeros(init_state_size, dtype=dtype)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/ops/array_ops.py", line 2677, in wrapped
+    tensor = fun(*args, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/ops/array_ops.py", line 2721, in zeros
+    output = _constant_if_small(zero, shape, dtype, name)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/ops/array_ops.py", line 2662, in _constant_if_small
+    if np.prod(shape) < 1000:
+  File "<__array_function__ internals>", line 180, in prod
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/numpy/core/fromnumeric.py", line 3088, in prod
+    return _wrapreduction(a, np.multiply, 'prod', axis, dtype, out,
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/numpy/core/fromnumeric.py", line 86, in _wrapreduction
+    return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/framework/ops.py", line 748, in __array__
+    raise NotImplementedError("Cannot convert a symbolic Tensor ({}) to a numpy"
+NotImplementedError: Cannot convert a symbolic Tensor (bidirectional/forward_lstm/strided_slice:0) to a numpy array.
+java.io.FileNotFoundException: ./utils/user_dic.tsv (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at kr.co.shineware.nlp.komoran.core.Komoran.setUserDic(Komoran.java:616)
+2022-05-31 12:16:09.956206: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2022-05-31 12:16:10.207843: E tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:967] could not open file to read NUMA node: /sys/bus/pci/devices/0000:01:00.0/numa_node
+Your kernel may have been built without NUMA support.
+2022-05-31 12:16:10.208128: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: NVIDIA GeForce GTX 1050 Ti computeCapability: 6.1
+coreClock: 1.455GHz coreCount: 6 deviceMemorySize: 4.00GiB deviceMemoryBandwidth: 104.43GiB/s
+2022-05-31 12:16:10.209453: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2022-05-31 12:16:10.209571: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory
+2022-05-31 12:16:10.209675: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory
+2022-05-31 12:16:10.209768: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10'; dlerror: libcurand.so.10: cannot open shared object file: No such file or directory
+2022-05-31 12:16:10.209858: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10'; dlerror: libcusolver.so.10: cannot open shared object file: No such file or directory
+2022-05-31 12:16:10.209948: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10'; dlerror: libcusparse.so.10: cannot open shared object file: No such file or directory
+2022-05-31 12:16:10.210035: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2022-05-31 12:16:10.210053: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1598] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-05-31 12:16:10.220320: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 3392290000 Hz
+2022-05-31 12:16:10.222445: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x563f65f2d0c0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2022-05-31 12:16:10.222475: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2022-05-31 12:16:10.224222: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-05-31 12:16:10.224259: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      
+Traceback (most recent call last):
+  File "bot.py", line 21, in <module>
+    ner = NerModel(model_name='./models/ner/ner_model.h5', proprocess=p)
+  File "/home/pickus/chatbot_study/models/ner/NerModel.py", line 15, in __init__
+    self.model = load_model(model_name)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/saving/save.py", line 184, in load_model
+    return hdf5_format.load_model_from_hdf5(filepath, custom_objects, compile)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/saving/hdf5_format.py", line 177, in load_model_from_hdf5
+    model = model_config_lib.model_from_config(model_config,
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/saving/model_config.py", line 55, in model_from_config
+    return deserialize(config, custom_objects=custom_objects)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/serialization.py", line 105, in deserialize
+    return deserialize_keras_object(
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/utils/generic_utils.py", line 369, in deserialize_keras_object
+    return cls.from_config(
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/engine/sequential.py", line 399, in from_config
+    model.add(layer)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/training/tracking/base.py", line 456, in _method_wrapper
+    result = method(self, *args, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/engine/sequential.py", line 213, in add
+    output_tensor = layer(self.outputs[0])
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/wrappers.py", line 531, in __call__
+    return super(Bidirectional, self).__call__(inputs, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/engine/base_layer.py", line 922, in __call__
+    outputs = call_fn(cast_inputs, *args, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/wrappers.py", line 644, in call
+    y = self.forward_layer(forward_inputs,
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 654, in __call__
+    return super(RNN, self).__call__(inputs, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/engine/base_layer.py", line 922, in __call__
+    outputs = call_fn(cast_inputs, *args, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent_v2.py", line 1112, in call
+    inputs, initial_state, _ = self._process_inputs(inputs, initial_state, None)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 848, in _process_inputs
+    initial_state = self.get_initial_state(inputs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 636, in get_initial_state
+    init_state = get_initial_state_fn(
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 2480, in get_initial_state
+    return list(_generate_zero_filled_state_for_cell(
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 2926, in _generate_zero_filled_state_for_cell
+    return _generate_zero_filled_state(batch_size, cell.state_size, dtype)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 2942, in _generate_zero_filled_state
+    return nest.map_structure(create_zeros, state_size)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/util/nest.py", line 617, in map_structure
+    structure[0], [func(*x) for x in entries],
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/util/nest.py", line 617, in <listcomp>
+    structure[0], [func(*x) for x in entries],
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/keras/layers/recurrent.py", line 2939, in create_zeros
+    return array_ops.zeros(init_state_size, dtype=dtype)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/ops/array_ops.py", line 2677, in wrapped
+    tensor = fun(*args, **kwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/ops/array_ops.py", line 2721, in zeros
+    output = _constant_if_small(zero, shape, dtype, name)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/ops/array_ops.py", line 2662, in _constant_if_small
+    if np.prod(shape) < 1000:
+  File "<__array_function__ internals>", line 180, in prod
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/numpy/core/fromnumeric.py", line 3088, in prod
+    return _wrapreduction(a, np.multiply, 'prod', axis, dtype, out,
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/numpy/core/fromnumeric.py", line 86, in _wrapreduction
+    return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+  File "/home/pickus/anaconda3/envs/chatbot/lib/python3.8/site-packages/tensorflow/python/framework/ops.py", line 748, in __array__
+    raise NotImplementedError("Cannot convert a symbolic Tensor ({}) to a numpy"
+NotImplementedError: Cannot convert a symbolic Tensor (bidirectional/forward_lstm/strided_slice:0) to a numpy array.
+java.io.FileNotFoundException: ./utils/user_dic.tsv (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at kr.co.shineware.nlp.komoran.core.Komoran.setUserDic(Komoran.java:616)
+2022-05-31 12:47:54.586148: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2022-05-31 12:47:54.608236: E tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:967] could not open file to read NUMA node: /sys/bus/pci/devices/0000:01:00.0/numa_node
+Your kernel may have been built without NUMA support.
+2022-05-31 12:47:54.608724: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: NVIDIA GeForce GTX 1050 Ti computeCapability: 6.1
+coreClock: 1.455GHz coreCount: 6 deviceMemorySize: 4.00GiB deviceMemoryBandwidth: 104.43GiB/s
+2022-05-31 12:47:54.608876: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2022-05-31 12:47:54.608960: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory
+2022-05-31 12:47:54.609040: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory
+2022-05-31 12:47:54.609118: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10'; dlerror: libcurand.so.10: cannot open shared object file: No such file or directory
+2022-05-31 12:47:54.609195: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10'; dlerror: libcusolver.so.10: cannot open shared object file: No such file or directory
+2022-05-31 12:47:54.609271: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10'; dlerror: libcusparse.so.10: cannot open shared object file: No such file or directory
+2022-05-31 12:47:54.609348: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2022-05-31 12:47:54.609364: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1598] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-05-31 12:47:54.618039: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 3392290000 Hz
+2022-05-31 12:47:54.619237: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55d6a7fa61f0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2022-05-31 12:47:54.619273: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2022-05-31 12:47:54.620960: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-05-31 12:47:54.620980: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      
+DB 접속
+Traceback (most recent call last):
+  File "bot.py", line 97, in <module>
+    bot.create_sock()
+  File "/home/pickus/chatbot_study/utils/BotServer.py", line 12, in create_sock
+    self.mySock.bind(("0.0.0.0", int(self.port)))
+OSError: [Errno 98] Address already in use
+java.io.FileNotFoundException: ./utils/user_dic.tsv (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at kr.co.shineware.nlp.komoran.core.Komoran.setUserDic(Komoran.java:616)
+2022-05-31 13:45:57.636153: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2022-05-31 13:45:57.657992: E tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:967] could not open file to read NUMA node: /sys/bus/pci/devices/0000:01:00.0/numa_node
+Your kernel may have been built without NUMA support.
+2022-05-31 13:45:57.658298: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: NVIDIA GeForce GTX 1050 Ti computeCapability: 6.1
+coreClock: 1.455GHz coreCount: 6 deviceMemorySize: 4.00GiB deviceMemoryBandwidth: 104.43GiB/s
+2022-05-31 13:45:57.658465: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2022-05-31 13:45:57.658557: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory
+2022-05-31 13:45:57.658662: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory
+2022-05-31 13:45:57.658748: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10'; dlerror: libcurand.so.10: cannot open shared object file: No such file or directory
+2022-05-31 13:45:57.658832: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10'; dlerror: libcusolver.so.10: cannot open shared object file: No such file or directory
+2022-05-31 13:45:57.658914: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10'; dlerror: libcusparse.so.10: cannot open shared object file: No such file or directory
+2022-05-31 13:45:57.658997: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2022-05-31 13:45:57.659015: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1598] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-05-31 13:45:57.668828: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 3392290000 Hz
+2022-05-31 13:45:57.670044: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55b695277920 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2022-05-31 13:45:57.670081: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2022-05-31 13:45:57.672022: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-05-31 13:45:57.672063: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      
+DB 접속
+Traceback (most recent call last):
+  File "bot.py", line 97, in <module>
+    bot.create_sock()
+  File "/home/pickus/chatbot_study/utils/BotServer.py", line 12, in create_sock
+    self.mySock.bind(("0.0.0.0", int(self.port)))
+OSError: [Errno 98] Address already in use
+java.io.FileNotFoundException: ./utils/user_dic.tsv (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at kr.co.shineware.nlp.komoran.core.Komoran.setUserDic(Komoran.java:616)
+2022-05-31 13:46:23.395748: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2022-05-31 13:46:23.656996: E tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:967] could not open file to read NUMA node: /sys/bus/pci/devices/0000:01:00.0/numa_node
+Your kernel may have been built without NUMA support.
+2022-05-31 13:46:23.657226: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: NVIDIA GeForce GTX 1050 Ti computeCapability: 6.1
+coreClock: 1.455GHz coreCount: 6 deviceMemorySize: 4.00GiB deviceMemoryBandwidth: 104.43GiB/s
+2022-05-31 13:46:23.657428: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2022-05-31 13:46:23.657522: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory
+2022-05-31 13:46:23.657608: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory
+2022-05-31 13:46:23.657694: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10'; dlerror: libcurand.so.10: cannot open shared object file: No such file or directory
+2022-05-31 13:46:23.657779: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10'; dlerror: libcusolver.so.10: cannot open shared object file: No such file or directory
+2022-05-31 13:46:23.657861: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10'; dlerror: libcusparse.so.10: cannot open shared object file: No such file or directory
+2022-05-31 13:46:23.657945: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2022-05-31 13:46:23.657963: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1598] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-05-31 13:46:23.667148: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 3392290000 Hz
+2022-05-31 13:46:23.669010: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x565090890530 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2022-05-31 13:46:23.669056: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2022-05-31 13:46:23.671355: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-05-31 13:46:23.671424: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      
+java.io.FileNotFoundException: ./utils/user_dic.tsv (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at kr.co.shineware.nlp.komoran.core.Komoran.setUserDic(Komoran.java:616)
+2022-05-31 15:16:46.174680: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2022-05-31 15:16:46.432612: E tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:967] could not open file to read NUMA node: /sys/bus/pci/devices/0000:01:00.0/numa_node
+Your kernel may have been built without NUMA support.
+2022-05-31 15:16:46.432885: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: NVIDIA GeForce GTX 1050 Ti computeCapability: 6.1
+coreClock: 1.455GHz coreCount: 6 deviceMemorySize: 4.00GiB deviceMemoryBandwidth: 104.43GiB/s
+2022-05-31 15:16:46.433058: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2022-05-31 15:16:46.433146: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory
+2022-05-31 15:16:46.433233: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory
+2022-05-31 15:16:46.433315: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10'; dlerror: libcurand.so.10: cannot open shared object file: No such file or directory
+2022-05-31 15:16:46.433398: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10'; dlerror: libcusolver.so.10: cannot open shared object file: No such file or directory
+2022-05-31 15:16:46.433477: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10'; dlerror: libcusparse.so.10: cannot open shared object file: No such file or directory
+2022-05-31 15:16:46.433562: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2022-05-31 15:16:46.433580: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1598] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-05-31 15:16:46.443564: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 3392290000 Hz
+2022-05-31 15:16:46.445109: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55d2bec65be0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2022-05-31 15:16:46.445293: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2022-05-31 15:16:46.447128: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-05-31 15:16:46.447151: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      
+java.io.FileNotFoundException: ./utils/user_dic.tsv (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at kr.co.shineware.nlp.komoran.core.Komoran.setUserDic(Komoran.java:616)
+2022-05-31 15:28:24.924500: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2022-05-31 15:28:25.179233: E tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:967] could not open file to read NUMA node: /sys/bus/pci/devices/0000:01:00.0/numa_node
+Your kernel may have been built without NUMA support.
+2022-05-31 15:28:25.179474: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: NVIDIA GeForce GTX 1050 Ti computeCapability: 6.1
+coreClock: 1.455GHz coreCount: 6 deviceMemorySize: 4.00GiB deviceMemoryBandwidth: 104.43GiB/s
+2022-05-31 15:28:25.179638: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2022-05-31 15:28:25.179724: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory
+2022-05-31 15:28:25.179808: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory
+2022-05-31 15:28:25.179890: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10'; dlerror: libcurand.so.10: cannot open shared object file: No such file or directory
+2022-05-31 15:28:25.179972: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10'; dlerror: libcusolver.so.10: cannot open shared object file: No such file or directory
+2022-05-31 15:28:25.180075: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10'; dlerror: libcusparse.so.10: cannot open shared object file: No such file or directory
+2022-05-31 15:28:25.180159: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2022-05-31 15:28:25.180177: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1598] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-05-31 15:28:25.189785: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 3392290000 Hz
+2022-05-31 15:28:25.190836: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x565454dd13e0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2022-05-31 15:28:25.190866: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2022-05-31 15:28:25.192562: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-05-31 15:28:25.192599: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      
